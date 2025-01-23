@@ -25,12 +25,14 @@ st.header('Compiling queries')
 sb = st.sidebar
 
 with sb:
-    st.subheader("Outer Rim \nCS39202: Database Management Systems Lab\n2023 Spring")
-    st.write("Archit Mangrulkar - 20CS10086")
-    st.write("Ashwani Kumar Kamal - 20CS10011")
-    st.write("Hardik Pravin Soni - 20CS30023")
-    st.write("Shiladitya De - 20CS30061")
-    st.write("Sourabh Soumyakanta Das - 20CS30051")
+    st.subheader("How It Works")
+    st.write("""
+    1. **Input Query**: Enter your query in the text input box or upload a query file.
+    2. **Compilation**: The query is compiled using a C++ backend.
+    3. **Optimization**: Various optimization techniques are applied to enhance query performance.
+    4. **Execution**: The optimized query is executed, and results are generated.
+    5. **Results**: View the results directly in the application.
+    """)
 
 col1, col2 = st.columns(2)
 
