@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import subprocess
 
-EXECUTABLE="./translator/test_res"
+EXECUTABLE="translator/test_res"
 INPUT="tmp/in.txt"
 OUTPUT="tmp/out.txt"
 
@@ -14,8 +14,8 @@ args = (EXECUTABLE, "<", INPUT, ">", OUTPUT)
 cmd = " ".join(args)
 
 st.set_page_config(
-    page_title="qoptimizer",
-    page_icon="🕮",
+    page_title="hs094's Query Optimizer",
+    page_icon="😎",
     layout="wide"
 )
 

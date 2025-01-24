@@ -1,6 +1,6 @@
 import os
 
-EXECUTABLE="./translator/test_res"
+EXECUTABLE="translator/test_res"
 INPUT="tmp/in.txt"
 OUTPUT="tmp/out.txt"
 
