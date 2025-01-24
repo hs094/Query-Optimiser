@@ -19,7 +19,7 @@ RUN apt-get update --fix-missing && \
 COPY . /app
 
 # Run the Makefile
-RUN make run
+RUN make -C translator
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
